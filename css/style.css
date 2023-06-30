@@ -286,7 +286,49 @@ h1,h2,h3,h4,h5,h6,p{
   padding: 0;
   list-style-type: none;
 }
+    /* Custom styles for the contact form */
+    .contact h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 40px;
+    }
 
+    .contactForm .form-control {
+        border-radius: 0;
+        margin-bottom: 20px;
+    }
+
+    .contactForm textarea.form-control {
+        resize: none;
+        margin-bottom: 20px;
+
+    }
+
+    .sendMessageButton {
+        border-radius: 0;
+        padding: 10px 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+.form-row{
+  margin-bottom: 20px;
+}
+    /* Optional: Add your own custom styles to further enhance the form's appearance */
+    /* For example: */
+    /* 
+    .container-fluid {
+        background-color: #f8f9fa;
+        padding: 20px;
+    }
+
+    .contact-form {
+        background-color: #ffffff;
+        border: 1px solid #ced4da;
+        padding: 40px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    */
 
 /*====================== Back to buttom ==================*/
 
@@ -322,7 +364,7 @@ h1,h2,h3,h4,h5,h6,p{
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root{
-  --header-height: 3rem;
+  --header-height: 0rem;
   --font-semi: 600;
 }
 
