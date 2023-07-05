@@ -979,15 +979,15 @@ img{
   width: 200px;
   border: 1px solid #007bff;
   border-radius: 4px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   margin-right: 10px;
   transition: box-shadow 0.3s;
-  box-sizing: border-box; /* Add this property to include padding in the width */
+  box-sizing: border-box;
 }
 
 .contact-card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 12, 244, 0.2);
 }
 
 .contact-link {
@@ -1009,4 +1009,13 @@ img{
 
 .contact-link:hover i {
   top: -5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
