@@ -71,6 +71,24 @@ $(document).ready(function() {
 
     setInterval(changeWord, 2000); // Change word every 2 seconds (adjust as needed)
   });
+  //comment out top function
+
+  const text = document.querySelector(".sec-text");
+  
+  const textLoad = () => {
+  setTimeout(() => {
+  text.textContent = "Developer";
+  }, 0);
+  setTimeout(() => {
+  text.textContent = "Freelancer";
+  }, 2000);
+  setTimeout(() => {
+  text.textContent = "Designer";
+  }, 4000);
+  }
+  
+  textLoad();
+  setInterval(textLoad, 12000);
 
   // Modal Video
   $(document).ready(function () {
@@ -236,3 +254,4 @@ sr.reveal(".contact__input", { interval: 200 });
 //   const downloadButton = document.querySelector('download-button');
 //   downloadButton.addEventListener('click', downloadCV);
   
+
