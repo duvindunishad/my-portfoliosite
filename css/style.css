@@ -721,7 +721,10 @@ img{
   justify-content: center;
   align-items: flex-start;
 }
-
+.header-content h2{
+  max-width: 100%;
+  height: auto;
+}
 
 /* .buttons {
   display: flex;
@@ -760,9 +763,19 @@ img{
 } */
 
 
+/* .image-container {
+  max-width: 100%;
+  height: auto;
+} */
+
+.image img {
+  width: 100%;
+  height: auto;
+}
 
 .image {
-  width: 400px;
+  max-width: 100%;
+  height: auto;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;

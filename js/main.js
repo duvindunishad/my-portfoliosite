@@ -203,3 +203,36 @@ sr.reveal(".work__img", { interval: 200 });
 
 /*SCROLL CONTACT*/
 sr.reveal(".contact__input", { interval: 200 });
+
+//download cv
+// document.addEventListener("DOMContentLoaded", function(event) {
+//     const downloadButton = document.querySelector("#download-button");
+    
+//     downloadButton.addEventListener("click", async () => {
+//       try {
+//         const response = await fetch(downloadButton.href);
+//         const file = await response.blob();
+//         const link = document.createElement("a");
+//         link.href = URL.createObjectURL(file);
+//         link.download = new Date().getTime().toString();
+//         link.click();
+//       } catch (error) {
+//         alert("Error downloading");
+//       }
+//     });
+//   });
+  
+//   function downloadCV() {
+//     const cvUrl = 'https://i.ibb.co/Hq1MTrH/Professional-Resume.png'; // Replace with the actual URL of your CV file
+  
+//     const link = document.createElement('a');
+//     link.href = cvUrl;
+//     link.download = 'Professional-Resume.png'; // Specify the desired filename for the downloaded CV file
+  
+//     link.click();
+//   }
+  
+//   // Attach event listener to the download button
+//   const downloadButton = document.querySelector('download-button');
+//   downloadButton.addEventListener('click', downloadCV);
+  
