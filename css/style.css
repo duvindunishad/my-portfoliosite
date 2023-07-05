@@ -938,3 +938,74 @@ img{
         left: 0%;
     }
 }
+
+/* contact me */
+.contact-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list li {
+  margin-right: 20px;
+}
+
+.contact-list li:last-child {
+  margin-right: 0;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 30px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.contact-link i {
+  position: relative;
+  transition: top 0.3s;
+}
+
+.contact-link:hover {
+  color: #000000; /* Change the color on hover */
+}
+
+.contact-link:hover i {
+  top: -5px; /* Move the icon 5 pixels up on hover */
+}
+.contact-card {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.contact-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 30px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.contact-link i {
+  position: relative;
+  transition: top 0.3s;
+}
+
+.contact-link:hover {
+  color: #000000;
+}
+
+.contact-link:hover i {
+  top: -5px;
+}
