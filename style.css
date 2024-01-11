@@ -175,6 +175,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 /* =================== Service Section ==================*/
+
 .services .boxes{
   display: flex;
   flex-wrap: wrap;
@@ -186,7 +187,7 @@ h1,h2,h3,h4,h5,h6,p{
   text-align: center;
   border-radius: 12px;
   padding: 30px 10px;
-  box-shadow: 0 5px 10px rgba(165, 12, 12, 0.12);
+  box-shadow: 0 5px 10px rgba(12, 15, 165, 0.12);
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -666,6 +667,17 @@ img{
 section {
   margin: 20px;
   background-color: #0000ff11;
+  padding: 20px;
+  border-radius: 10px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  /* border: 1px  solid #0000ff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+.services {
+  margin: 20px;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   font-family:'Times New Roman', Times, serif;
