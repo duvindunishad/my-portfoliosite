@@ -861,7 +861,8 @@ section {
 }
 .display-3 {
   color: #ffffff;
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
+  font-size: 200%;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
