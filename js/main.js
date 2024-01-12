@@ -255,3 +255,6 @@ sr.reveal(".contact__input", { interval: 200 });
 //   downloadButton.addEventListener('click', downloadCV);
   
 
+function openWebsite(url) {
+  window.open(url, '_blank');
+}
